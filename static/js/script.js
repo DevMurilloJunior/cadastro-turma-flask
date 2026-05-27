@@ -1,4 +1,11 @@
 function cadastrarAluno() {
+    if (nome === "" || idade === "" || curso === "") {
+
+    document.getElementById("mensagem").textContent =
+    "Preencha todos os campos!";
+
+    return;
+}
 
     const nome = document.getElementById("nome").value;
     const idade = document.getElementById("idade").value;
