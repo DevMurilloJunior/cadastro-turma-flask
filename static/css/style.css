@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #7b5cff;
+    color: white;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background: rgba(255, 255, 255, 0.1);
+
+    padding: 40px;
+    border-radius: 20px;
+
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px;
+
+    border: none;
+    border-radius: 10px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:first-of-type {
+    background: #f4ea52;
+}
+
+button:last-of-type {
+    background: #ff8e8e;
+    color: white;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+#listaAlunos {
+    background: rgba(255,255,255,0.1);
+
+    padding: 15px;
+    border-radius: 10px;
+
+    min-height: 50px;
+}
